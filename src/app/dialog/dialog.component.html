@@ -13,9 +13,9 @@
     <mat-form-field appearance="outline">
       <mat-label>Product Category</mat-label>
       <mat-select formControlName="category" placeholder="Category">
-        <mat-option value="1">Fruits</mat-option>
-        <mat-option value="2">Vegitables</mat-option>
-        <mat-option value="3">Electronics</mat-option>
+        <mat-option value="Fruits">Fruits</mat-option>
+        <mat-option value="Vegitables">Vegitables</mat-option>
+        <mat-option value="Electronics">Electronics</mat-option>
       </mat-select>
     </mat-form-field>
     <mat-form-field appearance="outline">
@@ -52,5 +52,7 @@
 </div>
 <div mat-dialog-actions [align]="'end'">
   <button mat-raised-button color="warn" mat-dialog-close>Close</button>
-  <button mat-raised-button color="primary" (click)="addProduct()">Save</button>
+  <button mat-raised-button color="primary" (click)="addProduct()">
+    {{ actionBtn }}
+  </button>
 </div>

@@ -1,0 +1,32 @@
+{
+  "productList": [
+    {
+      "productName": "phone",
+      "comment": "frrrrrr",
+      "price": 17,
+      "freshness": "Brand new",
+      "category": "2",
+      "date": "2022-10-04T23:00:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "apple",
+      "comment": "yummy!!!!",
+      "price": 40,
+      "freshness": "Good",
+      "category": "1",
+      "date": "2022-10-17T23:00:00.000Z",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
